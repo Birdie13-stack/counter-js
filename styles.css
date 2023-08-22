@@ -5,12 +5,19 @@ body {
   background-color: azure;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 20px;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
-  display: grid;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
 }
 #value {
   font-size: 4rem;
